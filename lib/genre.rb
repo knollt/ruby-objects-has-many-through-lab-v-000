@@ -33,6 +33,11 @@ class Genre
 
   attr_accessor :name, :artist
 
+  @@all_genre = []
 
+  def initialize (name)
+    @name = name
+    @@all_genre << self
+  end   
 
 end
