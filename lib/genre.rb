@@ -40,4 +40,8 @@ class Genre
     @@all_genre << self
   end   
 
+  def self.all 
+    @@all_genre
+  end
+    
 end
