@@ -38,9 +38,9 @@ class Genre
   def initialize (name)
     @name = name
     @@all_genre << self
-  end   
+  end
 
-  def self.all 
+  def self.all
     @@all_genre
   end
     
